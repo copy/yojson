@@ -1,5 +1,6 @@
-(lang dune 2.7)
+(lang dune 3.8)
 (name yojson)
+(using melange 0.1)
 
 (generate_opam_files true)
 (source (github ocaml-community/yojson))

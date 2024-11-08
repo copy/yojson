@@ -113,8 +113,9 @@
 (library
  (name yojson)
  (public_name yojson)
+ (modes melange native)
  (modules yojson t basic safe raw common codec lexer_utils)
  (synopsis "JSON parsing and printing")
- (libraries seq)
+ (libraries)
  (flags
   (:standard -w -27-32)))
